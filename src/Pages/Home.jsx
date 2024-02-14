@@ -19,7 +19,7 @@ function Home() {
                         </div>
                         <div className="col-lg-1"></div>
                         <div className="col-lg-6">
-                            <img  src="https://media.istockphoto.com/id/1330902575/vector/back-to-school-concept.jpg?s=612x612&w=0&k=20&c=xrrrBt0WhLG1BRjCoUurBncbDmM-vnokQ83sPgVcX5Y=" alt="" />
+                            <img className='img-fluid'  src="https://media.istockphoto.com/id/1330902575/vector/back-to-school-concept.jpg?s=612x612&w=0&k=20&c=xrrrBt0WhLG1BRjCoUurBncbDmM-vnokQ83sPgVcX5Y=" alt="" />
                         </div>
                     </div>
                 </div>
