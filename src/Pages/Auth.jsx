@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../Components/Header'
 import Form from 'react-bootstrap/Form';
 import { ToastContainer, toast } from 'react-toastify';
@@ -12,6 +12,9 @@ function Auth() {
         firstName: '', lastName: '', address: '', email: '', gender: '', mobile: '', password: '', date: '', course: ''
     })
     console.log(userData);
+
+
+
 
     const handleRegister = async (e) => {
         e.preventDefault()
@@ -35,9 +38,6 @@ function Auth() {
             } catch (err) {
                 console.log(err);
             }
-
-
-
         }
     }
 
@@ -48,7 +48,7 @@ function Auth() {
             <div className='container-fluid '>
                 <div className='row p-5'>
                     <div className="col-lg-5">
-                        <img className='img-fluid'  src="https://i.pinimg.com/736x/71/da/54/71da54ba1000c33f01d959993b25f86d.jpg" alt="no image" />
+                        <img className='img-fluid' src="https://i.pinimg.com/736x/71/da/54/71da54ba1000c33f01d959993b25f86d.jpg" alt="no image" />
                     </div>
                     <div className="col-lg-7 ">
                         <h1 className=''>Apply as a Student</h1>
